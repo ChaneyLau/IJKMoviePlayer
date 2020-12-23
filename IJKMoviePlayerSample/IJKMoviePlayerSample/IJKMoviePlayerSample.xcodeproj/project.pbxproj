@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		389D1CA5573DDB352C639D07 /* libPods-IJKMoviePlayerSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C160AE60AE4614EC3203B0CA /* libPods-IJKMoviePlayerSample.a */; };
+		914F2BB42591C73F00CA7B57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 914F2BB32591C73F00CA7B57 /* AppDelegate.m */; };
+		914F2BBA2591C73F00CA7B57 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 914F2BB92591C73F00CA7B57 /* ViewController.m */; };
+		914F2BBD2591C73F00CA7B57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914F2BBB2591C73F00CA7B57 /* Main.storyboard */; };
+		914F2BBF2591C74200CA7B57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914F2BBE2591C74200CA7B57 /* Images.xcassets */; };
+		914F2BC22591C74200CA7B57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914F2BC02591C74200CA7B57 /* LaunchScreen.storyboard */; };
+		914F2BC52591C74200CA7B57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 914F2BC42591C74200CA7B57 /* main.m */; };
+		91A93ECE2592F88F00DCEBA7 /* IJKConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A93EC32592F88F00DCEBA7 /* IJKConstant.m */; };
+		91A93ECF2592F88F00DCEBA7 /* IJKMoviePlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A93EC52592F88F00DCEBA7 /* IJKMoviePlayerView.m */; };
+		91A93ED02592F88F00DCEBA7 /* IJKMovieSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A93EC62592F88F00DCEBA7 /* IJKMovieSliderView.m */; };
+		91A93ED12592F88F00DCEBA7 /* IJKMoviePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A93EC72592F88F00DCEBA7 /* IJKMoviePlayer.m */; };
+		91A93ED22592F88F00DCEBA7 /* IJKMoviePlayer.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91A93EC82592F88F00DCEBA7 /* IJKMoviePlayer.xcassets */; };
+		91A93ED32592F88F00DCEBA7 /* UIView+IJKFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A93EC92592F88F00DCEBA7 /* UIView+IJKFrame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		54274FD8A60ECE20AD8573C4 /* Pods-IJKMoviePlayerSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IJKMoviePlayerSample.debug.xcconfig"; path = "Target Support Files/Pods-IJKMoviePlayerSample/Pods-IJKMoviePlayerSample.debug.xcconfig"; sourceTree = "<group>"; };
+		771F6F245F12D55DA960E97C /* Pods-IJKMoviePlayerSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IJKMoviePlayerSample.release.xcconfig"; path = "Target Support Files/Pods-IJKMoviePlayerSample/Pods-IJKMoviePlayerSample.release.xcconfig"; sourceTree = "<group>"; };
+		914F2BAF2591C73F00CA7B57 /* IJKMoviePlayerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IJKMoviePlayerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		914F2BB22591C73F00CA7B57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		914F2BB32591C73F00CA7B57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		914F2BB82591C73F00CA7B57 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		914F2BB92591C73F00CA7B57 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		914F2BBC2591C73F00CA7B57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		914F2BBE2591C74200CA7B57 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		914F2BC12591C74200CA7B57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		914F2BC32591C74200CA7B57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		914F2BC42591C74200CA7B57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91A93EC32592F88F00DCEBA7 /* IJKConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKConstant.m; sourceTree = "<group>"; };
+		91A93EC42592F88F00DCEBA7 /* UIView+IJKFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IJKFrame.h"; sourceTree = "<group>"; };
+		91A93EC52592F88F00DCEBA7 /* IJKMoviePlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKMoviePlayerView.m; sourceTree = "<group>"; };
+		91A93EC62592F88F00DCEBA7 /* IJKMovieSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKMovieSliderView.m; sourceTree = "<group>"; };
+		91A93EC72592F88F00DCEBA7 /* IJKMoviePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKMoviePlayer.m; sourceTree = "<group>"; };
+		91A93EC82592F88F00DCEBA7 /* IJKMoviePlayer.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = IJKMoviePlayer.xcassets; sourceTree = "<group>"; };
+		91A93EC92592F88F00DCEBA7 /* UIView+IJKFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IJKFrame.m"; sourceTree = "<group>"; };
+		91A93ECA2592F88F00DCEBA7 /* IJKConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKConstant.h; sourceTree = "<group>"; };
+		91A93ECB2592F88F00DCEBA7 /* IJKMoviePlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKMoviePlayerView.h; sourceTree = "<group>"; };
+		91A93ECC2592F88F00DCEBA7 /* IJKMovieSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKMovieSliderView.h; sourceTree = "<group>"; };
+		91A93ECD2592F88F00DCEBA7 /* IJKMoviePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKMoviePlayer.h; sourceTree = "<group>"; };
+		C160AE60AE4614EC3203B0CA /* libPods-IJKMoviePlayerSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IJKMoviePlayerSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		914F2BAC2591C73F00CA7B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389D1CA5573DDB352C639D07 /* libPods-IJKMoviePlayerSample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D1C42D2F7A2717826D3FA0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C160AE60AE4614EC3203B0CA /* libPods-IJKMoviePlayerSample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		914F2BA62591C73F00CA7B57 = {
+			isa = PBXGroup;
+			children = (
+				91A93EC22592F88F00DCEBA7 /* IJKMoviePlayer */,
+				914F2BB12591C73F00CA7B57 /* IJKMoviePlayerSample */,
+				914F2BB02591C73F00CA7B57 /* Products */,
+				E5306DC929CDE27C06E986D9 /* Pods */,
+				2D1C42D2F7A2717826D3FA0E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		914F2BB02591C73F00CA7B57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				914F2BAF2591C73F00CA7B57 /* IJKMoviePlayerSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		914F2BB12591C73F00CA7B57 /* IJKMoviePlayerSample */ = {
+			isa = PBXGroup;
+			children = (
+				914F2BB22591C73F00CA7B57 /* AppDelegate.h */,
+				914F2BB32591C73F00CA7B57 /* AppDelegate.m */,
+				914F2BB82591C73F00CA7B57 /* ViewController.h */,
+				914F2BB92591C73F00CA7B57 /* ViewController.m */,
+				914F2BCE2591C76500CA7B57 /* Supporting Files */,
+			);
+			path = IJKMoviePlayerSample;
+			sourceTree = "<group>";
+		};
+		914F2BCE2591C76500CA7B57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				914F2BBE2591C74200CA7B57 /* Images.xcassets */,
+				914F2BBB2591C73F00CA7B57 /* Main.storyboard */,
+				914F2BC02591C74200CA7B57 /* LaunchScreen.storyboard */,
+				914F2BC32591C74200CA7B57 /* Info.plist */,
+				914F2BC42591C74200CA7B57 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91A93EC22592F88F00DCEBA7 /* IJKMoviePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				91A93ECA2592F88F00DCEBA7 /* IJKConstant.h */,
+				91A93EC32592F88F00DCEBA7 /* IJKConstant.m */,
+				91A93ECD2592F88F00DCEBA7 /* IJKMoviePlayer.h */,
+				91A93EC72592F88F00DCEBA7 /* IJKMoviePlayer.m */,
+				91A93ECB2592F88F00DCEBA7 /* IJKMoviePlayerView.h */,
+				91A93EC52592F88F00DCEBA7 /* IJKMoviePlayerView.m */,
+				91A93ECC2592F88F00DCEBA7 /* IJKMovieSliderView.h */,
+				91A93EC62592F88F00DCEBA7 /* IJKMovieSliderView.m */,
+				91A93EC42592F88F00DCEBA7 /* UIView+IJKFrame.h */,
+				91A93EC92592F88F00DCEBA7 /* UIView+IJKFrame.m */,
+				91A93EC82592F88F00DCEBA7 /* IJKMoviePlayer.xcassets */,
+			);
+			name = IJKMoviePlayer;
+			path = ../IJKMoviePlayer;
+			sourceTree = "<group>";
+		};
+		E5306DC929CDE27C06E986D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54274FD8A60ECE20AD8573C4 /* Pods-IJKMoviePlayerSample.debug.xcconfig */,
+				771F6F245F12D55DA960E97C /* Pods-IJKMoviePlayerSample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		914F2BAE2591C73F00CA7B57 /* IJKMoviePlayerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 914F2BC82591C74200CA7B57 /* Build configuration list for PBXNativeTarget "IJKMoviePlayerSample" */;
+			buildPhases = (
+				4AE2A33854817A08561B51E8 /* [CP] Check Pods Manifest.lock */,
+				914F2BAB2591C73F00CA7B57 /* Sources */,
+				914F2BAC2591C73F00CA7B57 /* Frameworks */,
+				914F2BAD2591C73F00CA7B57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IJKMoviePlayerSample;
+			productName = IJKMoviePlayerSample;
+			productReference = 914F2BAF2591C73F00CA7B57 /* IJKMoviePlayerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		914F2BA72591C73F00CA7B57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					914F2BAE2591C73F00CA7B57 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 914F2BAA2591C73F00CA7B57 /* Build configuration list for PBXProject "IJKMoviePlayerSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 914F2BA62591C73F00CA7B57;
+			productRefGroup = 914F2BB02591C73F00CA7B57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				914F2BAE2591C73F00CA7B57 /* IJKMoviePlayerSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		914F2BAD2591C73F00CA7B57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914F2BC22591C74200CA7B57 /* LaunchScreen.storyboard in Resources */,
+				914F2BBF2591C74200CA7B57 /* Images.xcassets in Resources */,
+				91A93ED22592F88F00DCEBA7 /* IJKMoviePlayer.xcassets in Resources */,
+				914F2BBD2591C73F00CA7B57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AE2A33854817A08561B51E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IJKMoviePlayerSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		914F2BAB2591C73F00CA7B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A93ECE2592F88F00DCEBA7 /* IJKConstant.m in Sources */,
+				91A93ED32592F88F00DCEBA7 /* UIView+IJKFrame.m in Sources */,
+				914F2BBA2591C73F00CA7B57 /* ViewController.m in Sources */,
+				914F2BB42591C73F00CA7B57 /* AppDelegate.m in Sources */,
+				91A93ED12592F88F00DCEBA7 /* IJKMoviePlayer.m in Sources */,
+				91A93ECF2592F88F00DCEBA7 /* IJKMoviePlayerView.m in Sources */,
+				914F2BC52591C74200CA7B57 /* main.m in Sources */,
+				91A93ED02592F88F00DCEBA7 /* IJKMovieSliderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		914F2BBB2591C73F00CA7B57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				914F2BBC2591C73F00CA7B57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		914F2BC02591C74200CA7B57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				914F2BC12591C74200CA7B57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		914F2BC62591C74200CA7B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		914F2BC72591C74200CA7B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		914F2BC92591C74200CA7B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54274FD8A60ECE20AD8573C4 /* Pods-IJKMoviePlayerSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = IJKMoviePlayerSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chaney.IJKMoviePlayerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		914F2BCA2591C74200CA7B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 771F6F245F12D55DA960E97C /* Pods-IJKMoviePlayerSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = IJKMoviePlayerSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chaney.IJKMoviePlayerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		914F2BAA2591C73F00CA7B57 /* Build configuration list for PBXProject "IJKMoviePlayerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914F2BC62591C74200CA7B57 /* Debug */,
+				914F2BC72591C74200CA7B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		914F2BC82591C74200CA7B57 /* Build configuration list for PBXNativeTarget "IJKMoviePlayerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914F2BC92591C74200CA7B57 /* Debug */,
+				914F2BCA2591C74200CA7B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 914F2BA72591C73F00CA7B57 /* Project object */;
+}
