@@ -11,8 +11,8 @@
 IJK_FFMPEG_COMMIT=ff4.0--ijk0.8.8--20201130--001
 ```
 
-* 编译脚本：[IJKConfig/module-lite.sh](https://github.com/ChaneyLau/IJKMoviePlayer/IJKConfig/module-lite.sh)
-* 编译的FFmpeg库：[FFmpegLibWithSSL/*.a](https://github.com/ChaneyLau/IJKMoviePlayer/FFmpegLibWithSSL)
+* 编译脚本：[IJKConfig/module-lite.sh](https://github.com/ChaneyLau/IJKMoviePlayer/blob/master/IJKConfig/module-lite.sh)
+* 编译的FFmpeg库：[FFmpegLibWithSSL/*.a](https://github.com/ChaneyLau/IJKMoviePlayer/tree/master/FFmpegLibWithSSL)
 
 ### 2. 功能特性
 
@@ -36,4 +36,4 @@ pod 'IJKMoviePlayer'
 
 ### 5. 说明
 
-**IJKMoviePlayer**仅为播放器框架，不包含操作UI，可基于本框架自行封装UI。附播放器Demo：[IJKMoviePlayerSample](https://github.com/ChaneyLau/IJKMoviePlayer/IJKMoviePlayerSample)
+**IJKMoviePlayer**仅为播放器框架，不包含操作UI，可基于本框架自行封装UI。附播放器Demo：[IJKMoviePlayerSample](https://github.com/ChaneyLau/IJKMoviePlayer/tree/master/IJKMoviePlayerSample)
